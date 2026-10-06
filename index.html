@@ -1,0 +1,786 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Бриф на продающий лендинг — Юлия Судоргина</title>
+<meta name="description" content="Ответьте на вопросы своими словами, текстом или голосом, остальное я возьму на себя">
+<meta name="robots" content="noindex, nofollow">
+<meta property="og:title" content="Бриф на продающий лендинг — Юлия Судоргина">
+<meta property="og:description" content="Бриф на продающий лендинг. Ответьте на вопросы своими словами, остальное я возьму на себя">
+<meta property="og:type" content="website">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Юлия Судоргина",
+  "jobTitle": "Психолог про отношения",
+  "description": "Когда терять семью не хочется, а жить как сейчас уже невозможно\n\nКонсультации онлайн",
+  "sameAs": [
+    "https://t.me/Juliasydorgina",
+    "https://max.ru/u/f9LHodD0cOLdABQpxYqts2SpePBVT_Hlfq0IMpFu3Qx1JAxkGJs65w9Q2z4"
+  ]
+}
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lora:wght@400;600;700&family=Open+Sans:wght@400;600&display=swap">
+<link rel="stylesheet" href="style.css">
+<style>
+:root {
+  --шрифт-заголовков: Lora, Georgia, serif;  --шрифт-текста: 'Open Sans', -apple-system, 'Segoe UI', sans-serif;
+  --цвет-фон: #FDFAF6;  --цвет-фон-2: #EDE1E6;  --цвет-фон-карточки: #FDFAF6;
+  --цвет-текст: #322B3C;  --цвет-текст-мягкий: #6B6277;  --цвет-текст-тихий: #766E81;
+  --цвет-акцент: #634A78;  --цвет-акцент-тёмный: #7E6395;  --цвет-акцент-яркий: #C98597;  --цвет-на-акценте: #FDFAF6;
+  --цвет-акцент-глубже: #4E3D63;  --цвет-акцент-маркер: #9F84B4;
+  --цвет-линия: #E7DDD9;
+  --цвет-тёмный-фон: #2E2838;  --цвет-тёмный-фон-2: #423558;  --цвет-тёмный-текст: #FDFAF6;
+  --цвет-тёмный-фон-3: #352E41;  --цвет-тёмный-фон-4: #292332;
+  --цвет-тёплый: #B87385;  --цвет-тёплый-мягкий: #E8C3C9;
+  --цвет-стекло: color-mix(in srgb, #2E2838 86%, transparent);
+  --тень: 0 12px 34px color-mix(in srgb, #2E2838 6%, transparent);
+  --тень-чип: 0 10px 30px color-mix(in srgb, #2E2838 12%, transparent);
+  --тень-глубокая: 0 24px 60px color-mix(in srgb, #2E2838 35%, transparent);
+  --тень-спутник: 0 30px 60px color-mix(in srgb, #2E2838 70%, transparent);
+  --тень-плиты: 0 40px 100px color-mix(in srgb, #2E2838 70%, transparent);
+  --кегль-h1: 33px;  --кегль-h2: clamp(28px, 4.5vw, 44px);
+  --кегль-текст: clamp(17px, 1.2vw, 19px);  --кегль-лид: clamp(18px, 1.3vw, 20px);
+  --кегль-мелкий: 16px;  --кегль-кикер: clamp(14px, 1.1vw, 15px);  --кегль-цифра: 30px;  --разрядка-кикера: .03em;
+  --отступ-секции: clamp(64px, 10vw, 128px);  --отступ-блока: clamp(20px, 2.5vw, 32px);
+  --отступ-секции-тихо: clamp(50px, 7.8vw, 100px);  --отступ-секции-громко: clamp(74px, 11.6vw, 148px);
+  --ширина: 1120px;  --ширина-колонки: 560px;  --радиус: 20px;  --радиус-малый: 10px;
+  --радиус-карточки: 24px;  --радиус-плитки: 28px;  --радиус-телефон: 46px;  --кнопка-радиус: 16px;
+  --радиус-модуля: 20px;  --нить: 2px;
+  --плавность: cubic-bezier(.2, .7, .2, 1);  --длительность: .25s;
+  --цвет-тёплый-тёмный: #AC5B70;
+}
+@media (min-width: 900px) {
+  :root { --кегль-h1: clamp(44px, 4vw, 58px); }
+}
+:root, .светлый { --цвет-кнопки: #634A78; --цвет-на-кнопке: #FDFAF6; --цвет-кнопки-навёл: var(--цвет-акцент-тёмный); }
+.тёмный { --цвет-кнопки: #C98597; --цвет-на-кнопке: #2E2838; --цвет-кнопки-навёл: #D6A1AF; }
+
+</style>
+<script>
+(function () {
+  var ЭТАЛОН = 0.535;                  // очко Open Sans — текстовой гарнитуры утверждённых макетов
+  var ПОТОЛОК = 1.2, МЁРТВАЯ = 0.02;   // выше потолка расползается раскладка; ближе к единице не трогаем вовсе
+  var КОМПЬЮТЕР = "(min-width: 900px)";
+  var ТОКЕНЫ = ["--кегль-текст", "--кегль-лид", "--кегль-мелкий", "--кегль-кикер"];
+  var корень = document.documentElement;
+  var холст = document.createElement("canvas").getContext("2d");
+  var ждём = 0;
+
+  function мера(буква) { var м = холст.measureText(буква); return (м && м.actualBoundingBoxAscent) || 0; }
+
+  function применить() {
+    ждём = 0;
+    if (!холст) { return; }
+
+    for (var i = 0; i < ТОКЕНЫ.length; i++) { корень.style.removeProperty(ТОКЕНЫ[i]); }
+    var стиль = getComputedStyle(корень), стек = стиль.getPropertyValue("--шрифт-текста").trim();
+    if (!стек) { return; }
+    холст.font = "400 100px " + стек;
+
+    var очко = Math.max(мера("х"), мера("x")) / 100;
+    if (!(очко > 0)) { return; }
+    var k = Math.round(Math.min(ПОТОЛОК, Math.max(1, ЭТАЛОН / очко)) * 1000) / 1000;
+    if (k - 1 < МЁРТВАЯ || !matchMedia(КОМПЬЮТЕР).matches) { k = 1; }
+    корень.setAttribute("data-очко", очко.toFixed(3));      // чтобы проверка могла сказать числа вслух
+    корень.setAttribute("data-поправка", k.toFixed(3));
+    if (k === 1) { return; }
+    for (i = 0; i < ТОКЕНЫ.length; i++) {
+      var было = стиль.getPropertyValue(ТОКЕНЫ[i]).trim();
+      if (было) { корень.style.setProperty(ТОКЕНЫ[i], "calc((" + было + ") * " + k + ")"); }
+    }
+  }
+
+  применить();
+
+  if (document.fonts && document.fonts.ready) { document.fonts.ready.then(применить); }
+
+  addEventListener("resize", function () { ждём = ждём || requestAnimationFrame(применить); });
+})();
+</script>
+</head>
+<body>
+<section class="блок блок--первый-экран первый-экран--разворот светлый фон--зерно" id="экран-1" data-тип="первый-экран" data-схема="разворот" data-ключ-макета="светлая" data-картинка="фото"><div class="стык стык--низ" aria-hidden="true" style="--стык-сосед: var(--цвет-фон-2, var(--цвет-фон))"></div>
+<style>
+  /* Телефон: главная кнопка обязана быть видна на видимой высоте Safari (SE 548, 14 — 664). Экономим на воздухе между строками и даём тексту зайти на растворённый низ кадра — лицо выше и не перекрыто. */
+  @media (max-width: 899px) {
+    #экран-1.первый-экран--разворот .первый-экран__текст { gap: calc(var(--отступ-блока) * .5); position: relative; z-index: 1; }
+    #экран-1.первый-экран--разворот .первый-экран__картинка { margin-bottom: calc(var(--недостаёт) * -.1); }
+  }
+</style>
+  <header class="шапка">
+    <a class="шапка__лого" href="#">Юлия Судоргина</a>
+    <span class="шапка__лиц"><svg class="иконка" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M12 3l7.5 3v5.5c0 4.6-3.2 8.2-7.5 9.5-4.3-1.3-7.5-4.9-7.5-9.5V6L12 3z"/>
+</svg><span><span class="полн">Ответы — прямо мне</span></span></span>
+  </header>
+  <span class="пятно пятно--1"></span><span class="пятно пятно--2"></span>
+  <div class="блок__внутри">
+    <div class="первый-экран__текст">
+      <p class="кикер"><svg class="иконка" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M13 2L4 14h7l-1 8 9-12h-7z"/>
+</svg>Бриф на продающий лендинг</p>
+      <h1>Расскажите про своё дело, остальное я возьму на <em class="акцент">себя</em></h1>
+      <p class="лид">Отвечайте так, как рассказали бы клиенту: прямо здесь, текстом. Документы и фото можно прикрепить. Не знаете ответа — так и напишите</p>
+      <ul class="список-иконок">
+        <li><i class="галка"></i><span>Вопросы по одному — у каждого своё поле для ответа</span></li>
+        <li><i class="галка"></i><span>Текст и файлы — документы и фото можно прикрепить</span></li>
+        <li><i class="галка"></i><span>«Не знаю» тоже ответ — подскажу и предложу варианты</span></li>
+      </ul>
+      <div class="первый-экран__действие"><a class="кнопка кнопка--главная" href="#вопрос-1">Начать с первого вопроса</a></div>
+    </div>
+    <figure class="картинка картинка--фото картинка--край первый-экран__картинка" style="--лицо-в-кадре: .22">
+      <picture><source media="(max-width: 899px)" srcset="img/portret-kompyuter.webp"><img src="img/portret-kompyuter.webp" alt="Юлия Судоргина, портрет" data-лицо="50,22" fetchpriority="high"></picture>
+    </figure>
+  </div>
+</section>
+<section class="блок блок--решение светлый второй" id="экран-02" data-тип="решение" data-вёрстка="своя"><div class="стык стык--верх" aria-hidden="true" style="--стык-сосед: var(--цвет-фон)"></div><div class="стык стык--низ" aria-hidden="true" style="--стык-сосед: var(--цвет-фон)"></div>
+<div class="блок__внутри">
+  <div class="путь">
+    <div class="секция__шапка путь__шапка">
+      <p class="кикер">Что дальше</p>
+      <h2>От ваших ответов до готовой страницы — шесть шагов</h2>
+    </div>
+    <div>
+      <ol class="шаги">
+        <li><span class="шаги__номер">1</span><div class="шаги__текст"><h3>Вы отвечаете</h3><p>в любом порядке, текстом, документы и фото можно прикрепить</p></div></li>
+        <li><span class="шаги__номер">2</span><div class="шаги__текст"><h3>Я разбираю ответы</h3><p>и собираю описание вашего дела: кто вы, что продаёте, каким голосом говорите</p></div></li>
+        <li><span class="шаги__номер">3</span><div class="шаги__текст"><h3>Показываю варианты оформления</h3><p>два-три, вы выбираете, ваш выбор записываю</p></div></li>
+        <li><span class="шаги__номер">4</span><div class="шаги__текст"><h3>Собираю страницу по экранам</h3><p>каждый вы видите на компьютере и на телефоне и говорите «ок»</p></div></li>
+        <li><span class="шаги__номер">5</span><div class="шаги__текст"><h3>Выкладываю по живой ссылке</h3><p>страница закрыта от поиска, пока вы её не приняли</p></div></li>
+        <li><span class="шаги__номер">6</span><div class="шаги__текст"><h3>Проверяю и передаю</h3><p>ссылка, доступы и короткая инструкция «как поправить текст»</p></div></li>
+      </ol>
+      <p class="после">Ничего не уходит в интернет без вашего «ок»</p>
+    </div>
+  </div>
+</div>
+</section>
+<section class="блок блок--вопросы-ответы светлый" id="экран-03" data-тип="вопросы-ответы" data-вёрстка="своя"><div class="стык стык--верх" aria-hidden="true" style="--стык-сосед: var(--цвет-фон-2, var(--цвет-фон))"></div><div class="стык стык--низ" aria-hidden="true" style="--стык-сосед: var(--цвет-фон-2, var(--цвет-фон))"></div>
+<div class="блок__внутри">
+  <div class="секция__шапка вопросы-шапка">
+    <p class="кикер">Вопросы</p>
+    <h2>Двенадцать разделов — отвечайте в любом порядке</h2>
+    <p class="вступление">Пишите ответ под вопросом, документы и фото прикрепляйте там же. Всё сохраняется само. Закончите — нажмите «Отправить ответы» внизу, и всё уйдёт мне одним сообщением</p>
+  </div>
+  <div class="зона">
+    <p class="итог" id="итог-счёт" aria-live="polite"></p>
+    <p class="итог__заметка" id="итог-заметка" hidden></p>
+    <div class="разделы">
+    <details class="модуль раздел" data-раздел="1" open>
+      <summary class="модуль__шапка">
+        <span class="модуль__номер">1</span>
+        <span class="модуль__заголовок"><b>О деле</b><span class="модуль__мета"><span>кто вы и чем занимаетесь</span><span class="раздел__счёт" data-счёт="1"></span></span></span>
+        <svg class="модуль__шеврон" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg>
+      </summary>
+      <div class="модуль__тело">
+        <p class="раздел__лид">Из этого раздела мы соберём «паспорт» вашего дела: кто вы, как вас называют, чем занимаетесь.</p>
+        <ol class="вопросы-список" start="1">
+          <li class="вопр" id="вопрос-1"><span class="вопр__номер">1</span><div class="вопр__тело"><label class="вопр__текст" for="ответ-1">Как называется ваше дело и как вас называют клиенты? Если названий несколько, какое главное?</label><textarea class="вопр__поле" id="ответ-1" data-q="1" rows="3"></textarea><div class="вопр__низ"><label class="кнопка кнопка--контур вопр__прикрепить">Прикрепить файл<input class="вопр__input" type="file" multiple data-q="1"></label><span class="вопр__готово" hidden>✓ Отвечено</span></div><ul class="вопр__список" data-q="1"></ul></div></li>
+          <li class="вопр"><span class="вопр__номер">2</span><div class="вопр__тело"><label class="вопр__текст" for="ответ-2">Чем вы занимаетесь? Расскажите как можно подробнее.</label><textarea class="вопр__поле" id="ответ-2" data-q="2" rows="3"></textarea><div class="вопр__низ"><label class="кнопка кнопка--контур вопр__прикрепить">Прикрепить файл<input class="вопр__input" type="file" multiple data-q="2"></label><span class="вопр__готово" hidden>✓ Отвечено</span></div><ul class="вопр__список" data-q="2"></ul></div></li>
+          <li class="вопр"><span class="вопр__номер">3</span><div class="вопр__тело"><label class="вопр__текст" for="ответ-3">Сколько лет работаете? Сколько клиентов у вас было?</label><textarea class="вопр__поле" id="ответ-3" data-q="3" rows="3"></textarea><div class="вопр__низ"><label class="кнопка кнопка--контур вопр__прикрепить">Прикрепить файл<input class="вопр__input" type="file" multiple data-q="3"></label><span class="вопр__готово" hidden>✓ Отвечено</span></div><ul class="вопр__список" data-q="3"></ul></div></li>
+          <li class="вопр"><span class="вопр__номер">4</span><div class="вопр__тело"><label class="вопр__текст" for="ответ-4">Вы один или с командой? Кто будет «лицом» страницы?</label><textarea class="вопр__поле" id="ответ-4" data-q="4" rows="3"></textarea><div class="вопр__низ"><label class="кнопка кнопка--контур вопр__прикрепить">Прикрепить файл<input class="вопр__input" type="file" multiple data-q="4"></label><span class="вопр__готово" hidden>✓ Отвечено</span></div><ul class="вопр__список" data-q="4"></ul></div></li>
+          <li class="вопр"><span class="вопр__номер">5</span><div class="вопр__тело"><label class="вопр__текст" for="ответ-5">Есть ли уже сайт, соцсети, карточки на картах или площадках? Пришлите ссылки.</label><textarea class="вопр__поле" id="ответ-5" data-q="5" rows="3"></textarea><div class="вопр__низ"><label class="кнопка кнопка--контур вопр__прикрепить">Прикрепить файл<input class="вопр__input" type="file" multiple data-q="5"></label><span class="вопр__готово" hidden>✓ Отвечено</span></div><ul class="вопр__список" data-q="5"></ul></div></li>
+        </ol>
+      </div>
+    </details>
+    <details class="модуль раздел" data-раздел="2" open>
+      <summary class="модуль__шапка">
+        <span class="модуль__номер">2</span>
+        <span class="модуль__заголовок"><b>Что продаём</b><span class="модуль__мета"><span>продукт, цена, чем вы отличаетесь</span><span class="тег метка">есть обязательные</span><span class="раздел__счёт" data-счёт="2"></span></span></span>
+        <svg class="модуль__шеврон" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg>
+      </summary>
+      <div class="модуль__тело">
+        <p class="раздел__лид">Это сердце страницы. Чем точнее ответы, тем меньше правок потом.</p>
+        <ol class="вопросы-список" start="6">
+          <li class="вопр вопр--обяз"><span class="вопр__номер">6</span><div class="вопр__тело"><span class="тег метка">Обязательно</span><label class="вопр__текст" for="ответ-6">Какой один продукт или услугу эта страница продаёт?</label><p class="вопр__подсказка">Если продуктов несколько, выберите главный. Остальные получат свои страницы.</p><textarea class="вопр__поле" id="ответ-6" data-q="6" rows="3"></textarea><div class="вопр__низ"><label class="кнопка кнопка--контур вопр__прикрепить">Прикрепить файл<input class="вопр__input" type="file" multiple data-q="6"></label><span class="вопр__готово" hidden>✓ Отвечено</span></div><ul class="вопр__список" data-q="6"></ul></div></li>
+          <li class="вопр вопр--обяз"><span class="вопр__номер">7</span><div class="вопр__тело"><span class="тег метка">Обязательно</span><label class="вопр__текст" for="ответ-7">Что человек получит в итоге? Опишите результат, а не процесс.</label><textarea class="вопр__поле" id="ответ-7" data-q="7" rows="3"></textarea><div class="вопр__низ"><label class="кнопка кнопка--контур вопр__прикрепить">Прикрепить файл<input class="вопр__input" type="file" multiple data-q="7"></label><span class="вопр__готово" hidden>✓ Отвечено</span></div><ul class="вопр__список" data-q="7"></ul></div></li>
+          <li class="вопр вопр--обяз"><span class="вопр__номер">8</span><div class="вопр__тело"><span class="тег метка">Обязательно</span><label class="вопр__текст" for="ответ-8">Из чего состоит продукт: этапы, программа, формат, сроки, что входит и что не входит?</label><textarea class="вопр__поле" id="ответ-8" data-q="8" rows="3"></textarea><div class="вопр__низ"><label class="кнопка кнопка--контур вопр__прикрепить">Прикрепить файл<input class="вопр__input" type="file" multiple data-q="8"></label><span class="вопр__готово" hidden>✓ Отвечено</span></div><ul class="вопр__список" data-q="8"></ul></div></li>
+          <li class="вопр вопр--обяз"><span class="вопр__номер">9</span><div class="вопр__тело"><span class="тег метка">Обязательно</span><label class="вопр__текст" for="ответ-9">Сколько стоит? Есть ли тарифы, рассрочка, скидки, акции?</label><textarea class="вопр__поле" id="ответ-9" data-q="9" rows="3"></textarea><div class="вопр__низ"><label class="кнопка кнопка--контур вопр__прикрепить">Прикрепить файл<input class="вопр__input" type="file" multiple data-q="9"></label><span class="вопр__готово" hidden>✓ Отвечено</span></div><ul class="вопр__список" data-q="9"></ul></div></li>
+          <li class="вопр вопр--обяз"><span class="вопр__номер">10</span><div class="вопр__тело"><span class="тег метка">Обязательно</span><label class="вопр__текст" for="ответ-10">Чем вы отличаетесь от других, кто делает то же самое? Почему выбирают вас?</label><p class="вопр__подсказка">Можно вспомнить, за что вас хвалят клиенты.</p><textarea class="вопр__поле" id="ответ-10" data-q="10" rows="3"></textarea><div class="вопр__низ"><label class="кнопка кнопка--контур вопр__прикрепить">Прикрепить файл<input class="вопр__input" type="file" multiple data-q="10"></label><span class="вопр__готово" hidden>✓ Отвечено</span></div><ul class="вопр__список" data-q="10"></ul></div></li>
+          <li class="вопр"><span class="вопр__номер">11</span><div class="вопр__тело"><label class="вопр__текст" for="ответ-11">Есть ли гарантии, возврат, пробное занятие или бесплатная консультация?</label><textarea class="вопр__поле" id="ответ-11" data-q="11" rows="3"></textarea><div class="вопр__низ"><label class="кнопка кнопка--контур вопр__прикрепить">Прикрепить файл<input class="вопр__input" type="file" multiple data-q="11"></label><span class="вопр__готово" hidden>✓ Отвечено</span></div><ul class="вопр__список" data-q="11"></ul></div></li>
+        </ol>
+      </div>
+    </details>
+    <details class="модуль раздел" data-раздел="3" open>
+      <summary class="модуль__шапка">
+        <span class="модуль__номер">3</span>
+        <span class="модуль__заголовок"><b>Кому продаём</b><span class="модуль__мета"><span>клиент, его проблема и сомнения</span><span class="тег метка">есть обязательные</span><span class="раздел__счёт" data-счёт="3"></span></span></span>
+        <svg class="модуль__шеврон" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg>
+      </summary>
+      <div class="модуль__тело">
+        <p class="раздел__лид">Страница должна заговорить с клиентом его словами. Для этого нам нужно услышать, как он сам описывает свою проблему.</p>
+        <ol class="вопросы-список" start="12">
+          <li class="вопр вопр--обяз"><span class="вопр__номер">12</span><div class="вопр__тело"><span class="тег метка">Обязательно</span><label class="вопр__текст" for="ответ-12">Кто ваш клиент: возраст, пол, город, чем занимается?</label><textarea class="вопр__поле" id="ответ-12" data-q="12" rows="3"></textarea><div class="вопр__низ"><label class="кнопка кнопка--контур вопр__прикрепить">Прикрепить файл<input class="вопр__input" type="file" multiple data-q="12"></label><span class="вопр__готово" hidden>✓ Отвечено</span></div><ul class="вопр__список" data-q="12"></ul></div></li>
+          <li class="вопр вопр--обяз"><span class="вопр__номер">13</span><div class="вопр__тело"><span class="тег метка">Обязательно</span><label class="вопр__текст" for="ответ-13">С какой проблемой он приходит? Своими словами, как он сам её описывает.</label><p class="вопр__подсказка">Лучше фразой самого клиента, например: «не знаю, с чего начать».</p><textarea class="вопр__поле" id="ответ-13" data-q="13" rows="3"></textarea><div class="вопр__низ"><label class="кнопка кнопка--контур вопр__прикрепить">Прикрепить файл<input class="вопр__input" type="file" multiple data-q="13"></label><span class="вопр__готово" hidden>✓ Отвечено</span></div><ul class="вопр__список" data-q="13"></ul></div></li>
+          <li class="вопр вопр--обяз"><span class="вопр__номер">14</span><div class="вопр__тело"><span class="тег метка">Обязательно</span><label class="вопр__текст" for="ответ-14">Что он уже пробовал и почему не помогло?</label><textarea class="вопр__поле" id="ответ-14" data-q="14" rows="3"></textarea><div class="вопр__низ"><label class="кнопка кнопка--контур вопр__прикрепить">Прикрепить файл<input class="вопр__input" type="file" multiple data-q="14"></label><span class="вопр__готово" hidden>✓ Отвечено</span></div><ul class="вопр__список" data-q="14"></ul></div></li>
+          <li class="вопр вопр--обяз"><span class="вопр__номер">15</span><div class="вопр__тело"><span class="тег метка">Обязательно</span><label class="вопр__текст" for="ответ-15">Что его останавливает перед покупкой: страхи, сомнения, частые вопросы и возражения?</label><textarea class="вопр__поле" id="ответ-15" data-q="15" rows="3"></textarea><div class="вопр__низ"><label class="кнопка кнопка--контур вопр__прикрепить">Прикрепить файл<input class="вопр__input" type="file" multiple data-q="15"></label><span class="вопр__готово" hidden>✓ Отвечено</span></div><ul class="вопр__список" data-q="15"></ul></div></li>
+          <li class="вопр"><span class="вопр__номер">16</span><div class="вопр__тело"><label class="вопр__текст" for="ответ-16">Как он вас обычно находит: рекомендации, поиск, соцсети, реклама?</label><textarea class="вопр__поле" id="ответ-16" data-q="16" rows="3"></textarea><div class="вопр__низ"><label class="кнопка кнопка--контур вопр__прикрепить">Прикрепить файл<input class="вопр__input" type="file" multiple data-q="16"></label><span class="вопр__готово" hidden>✓ Отвечено</span></div><ul class="вопр__список" data-q="16"></ul></div></li>
+          <li class="вопр"><span class="вопр__номер">17</span><div class="вопр__тело"><label class="вопр__текст" for="ответ-17">Откуда придут люди на эту страницу: реклама, рассылка, соцсети, поиск?</label><p class="вопр__подсказка">От этого зависит, как мы построим верхнюю часть страницы, которую видно сразу: человек из рекламы и человек из поиска ждут разного.</p><textarea class="вопр__поле" id="ответ-17" data-q="17" rows="3"></textarea><div class="вопр__низ"><label class="кнопка кнопка--контур вопр__прикрепить">Прикрепить файл<input class="вопр__input" type="file" multiple data-q="17"></label><span class="вопр__готово" hidden>✓ Отвечено</span></div><ul class="вопр__список" data-q="17"></ul></div></li>
+        </ol>
+      </div>
+    </details>
+    <details class="модуль раздел" data-раздел="4" open>
+      <summary class="модуль__шапка">
+        <span class="модуль__номер">4</span>
+        <span class="модуль__заголовок"><b>Чем докажем</b><span class="модуль__мета"><span>отзывы, цифры, примеры работ</span><span class="раздел__счёт" data-счёт="4"></span></span></span>
+        <svg class="модуль__шеврон" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg>
+      </summary>
+      <div class="модуль__тело">
+        <p class="раздел__лид">Люди покупают у тех, кому верят. Соберите всё, что подтверждает ваши слова.</p>
+        <ol class="вопросы-список" start="18">
+          <li class="вопр"><span class="вопр__номер">18</span><div class="вопр__тело"><label class="вопр__текст" for="ответ-18">Отзывы: есть ли письменные и видео? Можно ли показывать имя и фото автора?</label><textarea class="вопр__поле" id="ответ-18" data-q="18" rows="3"></textarea><div class="вопр__низ"><label class="кнопка кнопка--контур вопр__прикрепить">Прикрепить файл<input class="вопр__input" type="file" multiple data-q="18"></label><span class="вопр__готово" hidden>✓ Отвечено</span></div><ul class="вопр__список" data-q="18"></ul></div></li>
+          <li class="вопр"><span class="вопр__номер">19</span><div class="вопр__тело"><label class="вопр__текст" for="ответ-19">Есть ли примеры работ или истории клиентов «до и после»?</label><textarea class="вопр__поле" id="ответ-19" data-q="19" rows="3"></textarea><div class="вопр__низ"><label class="кнопка кнопка--контур вопр__прикрепить">Прикрепить файл<input class="вопр__input" type="file" multiple data-q="19"></label><span class="вопр__готово" hidden>✓ Отвечено</span></div><ul class="вопр__список" data-q="19"></ul></div></li>
+          <li class="вопр"><span class="вопр__номер">20</span><div class="вопр__тело"><label class="вопр__текст" for="ответ-20">Цифры: сколько клиентов, лет, проектов, какой результат?</label><textarea class="вопр__поле" id="ответ-20" data-q="20" rows="3"></textarea><div class="вопр__низ"><label class="кнопка кнопка--контур вопр__прикрепить">Прикрепить файл<input class="вопр__input" type="file" multiple data-q="20"></label><span class="вопр__готово" hidden>✓ Отвечено</span></div><ul class="вопр__список" data-q="20"></ul></div></li>
+          <li class="вопр"><span class="вопр__номер">21</span><div class="вопр__тело"><label class="вопр__текст" for="ответ-21">Дипломы, лицензии, сертификаты, членство в объединениях, упоминания в СМИ?</label><textarea class="вопр__поле" id="ответ-21" data-q="21" rows="3"></textarea><div class="вопр__низ"><label class="кнопка кнопка--контур вопр__прикрепить">Прикрепить файл<input class="вопр__input" type="file" multiple data-q="21"></label><span class="вопр__готово" hidden>✓ Отвечено</span></div><ul class="вопр__список" data-q="21"></ul></div></li>
+          <li class="вопр"><span class="вопр__номер">22</span><div class="вопр__тело"><label class="вопр__текст" for="ответ-22">Какие вопросы у клиентов повторяются чаще всего?</label><p class="вопр__подсказка">Из них получится блок «Вопросы и ответы».</p><textarea class="вопр__поле" id="ответ-22" data-q="22" rows="3"></textarea><div class="вопр__низ"><label class="кнопка кнопка--контур вопр__прикрепить">Прикрепить файл<input class="вопр__input" type="file" multiple data-q="22"></label><span class="вопр__готово" hidden>✓ Отвечено</span></div><ul class="вопр__список" data-q="22"></ul></div></li>
+        </ol>
+      </div>
+    </details>
+    <details class="модуль раздел" data-раздел="5" open>
+      <summary class="модуль__шапка">
+        <span class="модуль__номер">5</span>
+        <span class="модуль__заголовок"><b>Закон и ограничения</b><span class="модуль__мета"><span>о чём на странице писать нельзя</span><span class="тег метка">есть обязательные</span><span class="раздел__счёт" data-счёт="5"></span></span></span>
+        <svg class="модуль__шеврон" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg>
+      </summary>
+      <div class="модуль__тело">
+        <p class="раздел__лид">Страница будет видна всем, поэтому заранее договоримся, о чём на ней можно писать. Не знаете правил своей сферы: так и напишите, мы подскажем, где посмотреть.</p>
+        <div class="важно"><span class="важно__метка">Важно</span><b class="важно__заголовок">Мы пишем только то, что вы подтвердили</b><p>Результат, сроки, гарантии и цифры мы берём только из ваших ответов. Так на странице не окажется обещаний, которые вы не готовы выполнить.</p></div>
+        <ol class="вопросы-список" start="23">
+          <li class="вопр вопр--обяз"><span class="вопр__номер">23</span><div class="вопр__тело"><span class="тег метка">Обязательно</span><label class="вопр__текст" for="ответ-23">Как оформлена деятельность: ИП, самозанятость, ООО? Какие реквизиты нужны на странице?</label><textarea class="вопр__поле" id="ответ-23" data-q="23" rows="3"></textarea><div class="вопр__низ"><label class="кнопка кнопка--контур вопр__прикрепить">Прикрепить файл<input class="вопр__input" type="file" multiple data-q="23"></label><span class="вопр__готово" hidden>✓ Отвечено</span></div><ul class="вопр__список" data-q="23"></ul></div></li>
+          <li class="вопр вопр--обяз"><span class="вопр__номер">24</span><div class="вопр__тело"><span class="тег метка">Обязательно</span><label class="вопр__текст" for="ответ-24">Есть ли в вашей работе что-то, что требует лицензии или о чём закон запрещает писать в рекламе? Если не знаете, так и напишите.</label><p class="вопр__подсказка">Например, врачу нельзя обещать «вылечу», а некоторым школам нужна лицензия на программу.</p><textarea class="вопр__поле" id="ответ-24" data-q="24" rows="3"></textarea><div class="вопр__низ"><label class="кнопка кнопка--контур вопр__прикрепить">Прикрепить файл<input class="вопр__input" type="file" multiple data-q="24"></label><span class="вопр__готово" hidden>✓ Отвечено</span></div><ul class="вопр__список" data-q="24"></ul></div></li>
+          <li class="вопр вопр--обяз"><span class="вопр__номер">25</span><div class="вопр__тело"><span class="тег метка">Обязательно</span><label class="вопр__текст" for="ответ-25">Какие обещания про результат вам нельзя давать? Чего нельзя писать на странице?</label><textarea class="вопр__поле" id="ответ-25" data-q="25" rows="3"></textarea><div class="вопр__низ"><label class="кнопка кнопка--контур вопр__прикрепить">Прикрепить файл<input class="вопр__input" type="file" multiple data-q="25"></label><span class="вопр__готово" hidden>✓ Отвечено</span></div><ul class="вопр__список" data-q="25"></ul></div></li>
+          <li class="вопр"><span class="вопр__номер">26</span><div class="вопр__тело"><label class="вопр__текст" for="ответ-26">Будут ли на странице форма заявки или аналитика (Метрика, пиксели)? Если да, есть ли у вас политика конфиденциальности? Если оплата идёт прямо на странице, есть ли оферта?</label><p class="вопр__подсказка">Если кнопка просто ведёт в мессенджер или соцсеть, а формы и аналитики нет, ничего из этого не нужно.</p><textarea class="вопр__поле" id="ответ-26" data-q="26" rows="3"></textarea><div class="вопр__низ"><label class="кнопка кнопка--контур вопр__прикрепить">Прикрепить файл<input class="вопр__input" type="file" multiple data-q="26"></label><span class="вопр__готово" hidden>✓ Отвечено</span></div><ul class="вопр__список" data-q="26"></ul></div></li>
+          <li class="вопр"><span class="вопр__номер">27</span><div class="вопр__тело"><label class="вопр__текст" for="ответ-27">О чём нельзя упоминать вообще: места работы, клиенты, с которыми подписано соглашение о неразглашении, бывшие партнёры?</label><textarea class="вопр__поле" id="ответ-27" data-q="27" rows="3"></textarea><div class="вопр__низ"><label class="кнопка кнопка--контур вопр__прикрепить">Прикрепить файл<input class="вопр__input" type="file" multiple data-q="27"></label><span class="вопр__готово" hidden>✓ Отвечено</span></div><ul class="вопр__список" data-q="27"></ul></div></li>
+        </ol>
+      </div>
+    </details>
+    <details class="модуль раздел" data-раздел="6" open>
+      <summary class="модуль__шапка">
+        <span class="модуль__номер">6</span>
+        <span class="модуль__заголовок"><b>Конкуренты и примеры</b><span class="модуль__мета"><span>что нравится и что нет</span><span class="раздел__счёт" data-счёт="6"></span></span></span>
+        <svg class="модуль__шеврон" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg>
+      </summary>
+      <div class="модуль__тело">
+        <p class="раздел__лид">У чужих страниц мы учимся приёмам и ритму. Тексты и макеты мы не копируем: они собраны под чужое дело.</p>
+        <ol class="вопросы-список" start="28">
+          <li class="вопр"><span class="вопр__номер">28</span><div class="вопр__тело"><label class="вопр__текст" for="ответ-28">Назовите 3–5 сайтов конкурентов, на кого вы смотрите.</label><textarea class="вопр__поле" id="ответ-28" data-q="28" rows="3"></textarea><div class="вопр__низ"><label class="кнопка кнопка--контур вопр__прикрепить">Прикрепить файл<input class="вопр__input" type="file" multiple data-q="28"></label><span class="вопр__готово" hidden>✓ Отвечено</span></div><ul class="вопр__список" data-q="28"></ul></div></li>
+          <li class="вопр"><span class="вопр__номер">29</span><div class="вопр__тело"><label class="вопр__текст" for="ответ-29">Назовите 2–3 сайта, которые вам нравятся, необязательно из вашей сферы. Что именно нравится: цвета, тон, структура, подача?</label><textarea class="вопр__поле" id="ответ-29" data-q="29" rows="3"></textarea><div class="вопр__низ"><label class="кнопка кнопка--контур вопр__прикрепить">Прикрепить файл<input class="вопр__input" type="file" multiple data-q="29"></label><span class="вопр__готово" hidden>✓ Отвечено</span></div><ul class="вопр__список" data-q="29"></ul></div></li>
+          <li class="вопр"><span class="вопр__номер">30</span><div class="вопр__тело"><label class="вопр__текст" for="ответ-30">Назовите сайты, которые категорически не нравятся, и объясните почему.</label><textarea class="вопр__поле" id="ответ-30" data-q="30" rows="3"></textarea><div class="вопр__низ"><label class="кнопка кнопка--контур вопр__прикрепить">Прикрепить файл<input class="вопр__input" type="file" multiple data-q="30"></label><span class="вопр__готово" hidden>✓ Отвечено</span></div><ul class="вопр__список" data-q="30"></ul></div></li>
+        </ol>
+      </div>
+    </details>
+    <details class="модуль раздел" data-раздел="7" open>
+      <summary class="модуль__шапка">
+        <span class="модуль__номер">7</span>
+        <span class="модуль__заголовок"><b>Голос и вид</b><span class="модуль__мета"><span>как вы говорите, какие цвета и шрифты</span><span class="раздел__счёт" data-счёт="7"></span></span></span>
+        <svg class="модуль__шеврон" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg>
+      </summary>
+      <div class="модуль__тело">
+        <p class="раздел__лид">Страница должна звучать как вы и выглядеть как ваше дело, а не как шаблон.</p>
+        <ol class="вопросы-список" start="31">
+          <li class="вопр"><span class="вопр__номер">31</span><div class="вопр__тело"><label class="вопр__текст" for="ответ-31">Как вы говорите с клиентами: на «ты» или на «вы», строго или тепло, с юмором или без?</label><textarea class="вопр__поле" id="ответ-31" data-q="31" rows="3"></textarea><div class="вопр__низ"><label class="кнопка кнопка--контур вопр__прикрепить">Прикрепить файл<input class="вопр__input" type="file" multiple data-q="31"></label><span class="вопр__готово" hidden>✓ Отвечено</span></div><ul class="вопр__список" data-q="31"></ul></div></li>
+          <li class="вопр"><span class="вопр__номер">32</span><div class="вопр__тело"><label class="вопр__текст" for="ответ-32">Есть ли брендбук, логотип, фирменные цвета, шрифты? Пришлите файлы.</label><p class="вопр__подсказка">Файлы и фото прикрепите ниже кнопкой «Прикрепить файл».</p><textarea class="вопр__поле" id="ответ-32" data-q="32" rows="3"></textarea><div class="вопр__низ"><label class="кнопка кнопка--контур вопр__прикрепить">Прикрепить файл<input class="вопр__input" type="file" multiple data-q="32"></label><span class="вопр__готово" hidden>✓ Отвечено</span></div><ul class="вопр__список" data-q="32"></ul></div></li>
+          <li class="вопр"><span class="вопр__номер">33</span><div class="вопр__тело"><label class="вопр__текст" for="ответ-33">Если брендбука нет, какое настроение должна передавать страница: спокойное, энергичное, премиальное, домашнее, экспертное?</label><textarea class="вопр__поле" id="ответ-33" data-q="33" rows="3"></textarea><div class="вопр__низ"><label class="кнопка кнопка--контур вопр__прикрепить">Прикрепить файл<input class="вопр__input" type="file" multiple data-q="33"></label><span class="вопр__готово" hidden>✓ Отвечено</span></div><ul class="вопр__список" data-q="33"></ul></div></li>
+          <li class="вопр"><span class="вопр__номер">34</span><div class="вопр__тело"><label class="вопр__текст" for="ответ-34">Что точно не использовать: цвета, образы, слова, символы?</label><textarea class="вопр__поле" id="ответ-34" data-q="34" rows="3"></textarea><div class="вопр__низ"><label class="кнопка кнопка--контур вопр__прикрепить">Прикрепить файл<input class="вопр__input" type="file" multiple data-q="34"></label><span class="вопр__готово" hidden>✓ Отвечено</span></div><ul class="вопр__список" data-q="34"></ul></div></li>
+          <li class="вопр"><span class="вопр__номер">35</span><div class="вопр__тело"><label class="вопр__текст" for="ответ-35">Есть ли тексты, которые вам уже нравятся: посты, описания, выступления? Пришлите, чтобы мы поймали ваш голос.</label><p class="вопр__подсказка">Файлы и фото прикрепите ниже кнопкой «Прикрепить файл».</p><textarea class="вопр__поле" id="ответ-35" data-q="35" rows="3"></textarea><div class="вопр__низ"><label class="кнопка кнопка--контур вопр__прикрепить">Прикрепить файл<input class="вопр__input" type="file" multiple data-q="35"></label><span class="вопр__готово" hidden>✓ Отвечено</span></div><ul class="вопр__список" data-q="35"></ul></div></li>
+        </ol>
+      </div>
+    </details>
+    <details class="модуль раздел" data-раздел="8" open>
+      <summary class="модуль__шапка">
+        <span class="модуль__номер">8</span>
+        <span class="модуль__заголовок"><b>Фото и материалы</b><span class="модуль__мета"><span>снимки, видео, логотип</span><span class="тег метка">есть обязательные</span><span class="раздел__счёт" data-счёт="8"></span></span></span>
+        <svg class="модуль__шеврон" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg>
+      </summary>
+      <div class="модуль__тело">
+        <p class="раздел__лид">На странице должны быть настоящие люди и настоящие работы. Выдуманного «специалиста» и чужие лица мы не ставим.</p>
+        <ol class="вопросы-список" start="36">
+          <li class="вопр вопр--обяз"><span class="вопр__номер">36</span><div class="вопр__тело"><span class="тег метка">Обязательно</span><label class="вопр__текст" for="ответ-36">Какие фото у вас есть: портреты, работы, кабинет, команда, процесс? Пришлите всё.</label><p class="вопр__подсказка">Файлы и фото прикрепите ниже кнопкой «Прикрепить файл».</p><textarea class="вопр__поле" id="ответ-36" data-q="36" rows="3"></textarea><div class="вопр__низ"><label class="кнопка кнопка--контур вопр__прикрепить">Прикрепить файл<input class="вопр__input" type="file" multiple data-q="36"></label><span class="вопр__готово" hidden>✓ Отвечено</span></div><ul class="вопр__список" data-q="36"></ul></div></li>
+          <li class="вопр вопр--обяз"><span class="вопр__номер">37</span><div class="вопр__тело"><span class="тег метка">Обязательно</span><label class="вопр__текст" for="ответ-37">Есть ли минимум три хороших снимка вашего лица в разных ракурсах?</label><p class="вопр__подсказка">По ним мы подготовим портрет для страницы. Без вашего слова «беру» он на странице не появится.</p><p class="вопр__подсказка">Файлы и фото прикрепите ниже кнопкой «Прикрепить файл».</p><textarea class="вопр__поле" id="ответ-37" data-q="37" rows="3"></textarea><div class="вопр__низ"><label class="кнопка кнопка--контур вопр__прикрепить">Прикрепить файл<input class="вопр__input" type="file" multiple data-q="37"></label><span class="вопр__готово" hidden>✓ Отвечено</span></div><ul class="вопр__список" data-q="37"></ul></div></li>
+          <li class="вопр"><span class="вопр__номер">38</span><div class="вопр__тело"><label class="вопр__текст" for="ответ-38">Есть ли видео или ролики? Можно ли поставить их на страницу?</label><p class="вопр__подсказка">Файлы и фото прикрепите ниже кнопкой «Прикрепить файл».</p><textarea class="вопр__поле" id="ответ-38" data-q="38" rows="3"></textarea><div class="вопр__низ"><label class="кнопка кнопка--контур вопр__прикрепить">Прикрепить файл<input class="вопр__input" type="file" multiple data-q="38"></label><span class="вопр__готово" hidden>✓ Отвечено</span></div><ul class="вопр__список" data-q="38"></ul></div></li>
+          <li class="вопр"><span class="вопр__номер">39</span><div class="вопр__тело"><label class="вопр__текст" for="ответ-39">Какие картинки нужны, но у вас их нет? Нужны ли иллюстрации или иконки?</label><textarea class="вопр__поле" id="ответ-39" data-q="39" rows="3"></textarea><div class="вопр__низ"><label class="кнопка кнопка--контур вопр__прикрепить">Прикрепить файл<input class="вопр__input" type="file" multiple data-q="39"></label><span class="вопр__готово" hidden>✓ Отвечено</span></div><ul class="вопр__список" data-q="39"></ul></div></li>
+          <li class="вопр"><span class="вопр__номер">40</span><div class="вопр__тело"><label class="вопр__текст" for="ответ-40">Нужно ли скрыть лица клиентов, номера, документы на фото?</label><textarea class="вопр__поле" id="ответ-40" data-q="40" rows="3"></textarea><div class="вопр__низ"><label class="кнопка кнопка--контур вопр__прикрепить">Прикрепить файл<input class="вопр__input" type="file" multiple data-q="40"></label><span class="вопр__готово" hidden>✓ Отвечено</span></div><ul class="вопр__список" data-q="40"></ul></div></li>
+        </ol>
+      </div>
+    </details>
+    <details class="модуль раздел" data-раздел="9" open>
+      <summary class="модуль__шапка">
+        <span class="модуль__номер">9</span>
+        <span class="модуль__заголовок"><b>Заявка</b><span class="модуль__мета"><span>куда придут обращения</span><span class="тег метка">есть обязательные</span><span class="раздел__счёт" data-счёт="9"></span></span></span>
+        <svg class="модуль__шеврон" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg>
+      </summary>
+      <div class="модуль__тело">
+        <p class="раздел__лид">Страница нужна ради одного шага. Решим, каким он будет и куда упадёт заявка, чтобы ни одна не потерялась.</p>
+        <ol class="вопросы-список" start="41">
+          <li class="вопр вопр--обяз"><span class="вопр__номер">41</span><div class="вопр__тело"><span class="тег метка">Обязательно</span><label class="вопр__текст" for="ответ-41">Какое одно действие должен сделать посетитель: оставить заявку, написать в мессенджер, позвонить, записаться, купить?</label><textarea class="вопр__поле" id="ответ-41" data-q="41" rows="3"></textarea><div class="вопр__низ"><label class="кнопка кнопка--контур вопр__прикрепить">Прикрепить файл<input class="вопр__input" type="file" multiple data-q="41"></label><span class="вопр__готово" hidden>✓ Отвечено</span></div><ul class="вопр__список" data-q="41"></ul></div></li>
+          <li class="вопр вопр--обяз"><span class="вопр__номер">42</span><div class="вопр__тело"><span class="тег метка">Обязательно</span><label class="вопр__текст" for="ответ-42">Куда присылать заявки: Telegram, WhatsApp, почта, CRM (программа, где копятся заявки), форма сервиса?</label><textarea class="вопр__поле" id="ответ-42" data-q="42" rows="3"></textarea><div class="вопр__низ"><label class="кнопка кнопка--контур вопр__прикрепить">Прикрепить файл<input class="вопр__input" type="file" multiple data-q="42"></label><span class="вопр__готово" hidden>✓ Отвечено</span></div><ul class="вопр__список" data-q="42"></ul></div></li>
+          <li class="вопр"><span class="вопр__номер">43</span><div class="вопр__тело"><label class="вопр__текст" for="ответ-43">Кто и как быстро отвечает? Что клиент получает после заявки?</label><textarea class="вопр__поле" id="ответ-43" data-q="43" rows="3"></textarea><div class="вопр__низ"><label class="кнопка кнопка--контур вопр__прикрепить">Прикрепить файл<input class="вопр__input" type="file" multiple data-q="43"></label><span class="вопр__готово" hidden>✓ Отвечено</span></div><ul class="вопр__список" data-q="43"></ul></div></li>
+          <li class="вопр"><span class="вопр__номер">44</span><div class="вопр__тело"><label class="вопр__текст" for="ответ-44">Какие данные просить в форме?</label><p class="вопр__подсказка">Лучше минимум: имя и способ связи. Чем длиннее форма, тем меньше заявок.</p><textarea class="вопр__поле" id="ответ-44" data-q="44" rows="3"></textarea><div class="вопр__низ"><label class="кнопка кнопка--контур вопр__прикрепить">Прикрепить файл<input class="вопр__input" type="file" multiple data-q="44"></label><span class="вопр__готово" hidden>✓ Отвечено</span></div><ul class="вопр__список" data-q="44"></ul></div></li>
+          <li class="вопр"><span class="вопр__номер">45</span><div class="вопр__тело"><label class="вопр__текст" for="ответ-45">Контакты для страницы: телефон, мессенджеры, почта, адрес, график работы, соцсети?</label><textarea class="вопр__поле" id="ответ-45" data-q="45" rows="3"></textarea><div class="вопр__низ"><label class="кнопка кнопка--контур вопр__прикрепить">Прикрепить файл<input class="вопр__input" type="file" multiple data-q="45"></label><span class="вопр__готово" hidden>✓ Отвечено</span></div><ul class="вопр__список" data-q="45"></ul></div></li>
+        </ol>
+      </div>
+    </details>
+    <details class="модуль раздел" data-раздел="10" open>
+      <summary class="модуль__шапка">
+        <span class="модуль__номер">10</span>
+        <span class="модуль__заголовок"><b>Поиск и реклама</b><span class="модуль__мета"><span>по каким словам вас находят</span><span class="раздел__счёт" data-счёт="10"></span></span></span>
+        <svg class="модуль__шеврон" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg>
+      </summary>
+      <div class="модуль__тело">
+        <p class="раздел__лид">Заголовок вкладки, описание для поиска и слова, по которым вас находят, мы согласуем с вами: придуманное за вас описание может оказаться не тем, чем вы хотите быть известны.</p>
+        <ol class="вопросы-список" start="46">
+          <li class="вопр"><span class="вопр__номер">46</span><div class="вопр__тело"><label class="вопр__текст" for="ответ-46">Нужна ли странице видимость в Яндексе и Google, или она только под рекламу и рассылки?</label><textarea class="вопр__поле" id="ответ-46" data-q="46" rows="3"></textarea><div class="вопр__низ"><label class="кнопка кнопка--контур вопр__прикрепить">Прикрепить файл<input class="вопр__input" type="file" multiple data-q="46"></label><span class="вопр__готово" hidden>✓ Отвечено</span></div><ul class="вопр__список" data-q="46"></ul></div></li>
+          <li class="вопр"><span class="вопр__номер">47</span><div class="вопр__тело"><label class="вопр__текст" for="ответ-47">По каким словам вас должны находить?</label><p class="вопр__подсказка">Если не знаете, не страшно: мы подберём варианты с цифрами из Вордстата (сервис Яндекса, он показывает, сколько раз в месяц люди ищут слово), а выберете вы.</p><textarea class="вопр__поле" id="ответ-47" data-q="47" rows="3"></textarea><div class="вопр__низ"><label class="кнопка кнопка--контур вопр__прикрепить">Прикрепить файл<input class="вопр__input" type="file" multiple data-q="47"></label><span class="вопр__готово" hidden>✓ Отвечено</span></div><ul class="вопр__список" data-q="47"></ul></div></li>
+          <li class="вопр"><span class="вопр__номер">48</span><div class="вопр__тело"><label class="вопр__текст" for="ответ-48">Для какого города или региона страница? Работаете онлайн или офлайн?</label><textarea class="вопр__поле" id="ответ-48" data-q="48" rows="3"></textarea><div class="вопр__низ"><label class="кнопка кнопка--контур вопр__прикрепить">Прикрепить файл<input class="вопр__input" type="file" multiple data-q="48"></label><span class="вопр__готово" hidden>✓ Отвечено</span></div><ul class="вопр__список" data-q="48"></ul></div></li>
+          <li class="вопр"><span class="вопр__номер">49</span><div class="вопр__тело"><label class="вопр__текст" for="ответ-49">Подключены ли счётчики и кабинеты: Яндекс Метрика (счётчик посетителей), пиксели рекламы, Яндекс Вебмастер и Google Search Console (кабинеты владельца сайта в поиске)? Кому принадлежат доступы?</label><p class="вопр__подсказка">Не знаете, что это, так и напишите: мы проверим сами.</p><textarea class="вопр__поле" id="ответ-49" data-q="49" rows="3"></textarea><div class="вопр__низ"><label class="кнопка кнопка--контур вопр__прикрепить">Прикрепить файл<input class="вопр__input" type="file" multiple data-q="49"></label><span class="вопр__готово" hidden>✓ Отвечено</span></div><ul class="вопр__список" data-q="49"></ul></div></li>
+        </ol>
+      </div>
+    </details>
+    <details class="модуль раздел" data-раздел="11" open>
+      <summary class="модуль__шапка">
+        <span class="модуль__номер">11</span>
+        <span class="модуль__заголовок"><b>Домен и хостинг</b><span class="модуль__мета"><span>где будет жить страница</span><span class="тег метка">есть обязательные</span><span class="раздел__счёт" data-счёт="11"></span></span></span>
+        <svg class="модуль__шеврон" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg>
+      </summary>
+      <div class="модуль__тело">
+        <p class="раздел__лид">Здесь не нужно разбираться в технике: отвечайте как есть, остальное мы проверим сами. От ответов зависит, кому в итоге принадлежит ваша страница.</p>
+        <div class="важно"><span class="важно__метка">Важно</span><b class="важно__заголовок">Домен и хостинг оформляются на вас</b><p>Не на исполнителя «чтобы вам было проще». Иначе страница остаётся у того, на кого оформлен адрес, и вы зависите от него при любой правке и любом расставании.</p></div>
+        <ol class="вопросы-список" start="50">
+          <li class="вопр вопр--обяз"><span class="вопр__номер">50</span><div class="вопр__тело"><span class="тег метка">Обязательно</span><label class="вопр__текст" for="ответ-50">Есть ли у вас домен (адрес сайта вроде mysite.ru)? Если да, на кого он оформлен и где?</label><textarea class="вопр__поле" id="ответ-50" data-q="50" rows="3"></textarea><div class="вопр__низ"><label class="кнопка кнопка--контур вопр__прикрепить">Прикрепить файл<input class="вопр__input" type="file" multiple data-q="50"></label><span class="вопр__готово" hidden>✓ Отвечено</span></div><ul class="вопр__список" data-q="50"></ul></div></li>
+          <li class="вопр вопр--обяз"><span class="вопр__номер">51</span><div class="вопр__тело"><span class="тег метка">Обязательно</span><label class="вопр__текст" for="ответ-51">Где должна быть страница: на отдельном адресе, на вашем сайте, на GetCourse или Тильде (платформы для сайтов и курсов)? Есть ли требования площадки?</label><textarea class="вопр__поле" id="ответ-51" data-q="51" rows="3"></textarea><div class="вопр__низ"><label class="кнопка кнопка--контур вопр__прикрепить">Прикрепить файл<input class="вопр__input" type="file" multiple data-q="51"></label><span class="вопр__готово" hidden>✓ Отвечено</span></div><ul class="вопр__список" data-q="51"></ul></div></li>
+          <li class="вопр вопр--обяз"><span class="вопр__номер">52</span><div class="вопр__тело"><span class="тег метка">Обязательно</span><label class="вопр__текст" for="ответ-52">Домен и хостинг (место, где хранится страница) лучше оформить на вас. Вас это устраивает?</label><p class="вопр__подсказка">Так страница принадлежит вам, и вы не зависите от исполнителя.</p><textarea class="вопр__поле" id="ответ-52" data-q="52" rows="3"></textarea><div class="вопр__низ"><label class="кнопка кнопка--контур вопр__прикрепить">Прикрепить файл<input class="вопр__input" type="file" multiple data-q="52"></label><span class="вопр__готово" hidden>✓ Отвечено</span></div><ul class="вопр__список" data-q="52"></ul></div></li>
+        </ol>
+      </div>
+    </details>
+    <details class="модуль раздел" data-раздел="12" open>
+      <summary class="модуль__шапка">
+        <span class="модуль__номер">12</span>
+        <span class="модуль__заголовок"><b>Сроки и согласование</b><span class="модуль__мета"><span>как будем работать вместе</span><span class="раздел__счёт" data-счёт="12"></span></span></span>
+        <svg class="модуль__шеврон" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg>
+      </summary>
+      <div class="модуль__тело">
+        <p class="раздел__лид">Договоримся заранее, как мы будем работать вместе, чтобы потом не спорить.</p>
+        <ol class="вопросы-список" start="53">
+          <li class="вопр"><span class="вопр__номер">53</span><div class="вопр__тело"><label class="вопр__текст" for="ответ-53">К какой дате нужна страница? Есть ли жёсткая привязка: запуск рекламы, старт курса, сезон?</label><textarea class="вопр__поле" id="ответ-53" data-q="53" rows="3"></textarea><div class="вопр__низ"><label class="кнопка кнопка--контур вопр__прикрепить">Прикрепить файл<input class="вопр__input" type="file" multiple data-q="53"></label><span class="вопр__готово" hidden>✓ Отвечено</span></div><ul class="вопр__список" data-q="53"></ul></div></li>
+          <li class="вопр"><span class="вопр__номер">54</span><div class="вопр__тело"><label class="вопр__текст" for="ответ-54">Кто принимает решения? Если несколько человек, кто даёт последнее слово?</label><textarea class="вопр__поле" id="ответ-54" data-q="54" rows="3"></textarea><div class="вопр__низ"><label class="кнопка кнопка--контур вопр__прикрепить">Прикрепить файл<input class="вопр__input" type="file" multiple data-q="54"></label><span class="вопр__готово" hidden>✓ Отвечено</span></div><ul class="вопр__список" data-q="54"></ul></div></li>
+          <li class="вопр"><span class="вопр__номер">55</span><div class="вопр__тело"><label class="вопр__текст" for="ответ-55">Мы покажем 2–3 варианта оформления и будем собирать страницу экран за экраном. Сколько времени вам нужно на ответ?</label><textarea class="вопр__поле" id="ответ-55" data-q="55" rows="3"></textarea><div class="вопр__низ"><label class="кнопка кнопка--контур вопр__прикрепить">Прикрепить файл<input class="вопр__input" type="file" multiple data-q="55"></label><span class="вопр__готово" hidden>✓ Отвечено</span></div><ul class="вопр__список" data-q="55"></ul></div></li>
+          <li class="вопр"><span class="вопр__номер">56</span><div class="вопр__тело"><label class="вопр__текст" for="ответ-56">Кто будет править тексты после запуска: вы сами или мы? Нужна ли короткая инструкция «как поправить текст»?</label><textarea class="вопр__поле" id="ответ-56" data-q="56" rows="3"></textarea><div class="вопр__низ"><label class="кнопка кнопка--контур вопр__прикрепить">Прикрепить файл<input class="вопр__input" type="file" multiple data-q="56"></label><span class="вопр__готово" hidden>✓ Отвечено</span></div><ul class="вопр__список" data-q="56"></ul></div></li>
+          <li class="вопр"><span class="вопр__номер">57</span><div class="вопр__тело"><label class="вопр__текст" for="ответ-57">Есть ли ещё что-то важное, о чём мы не спросили?</label><textarea class="вопр__поле" id="ответ-57" data-q="57" rows="3"></textarea><div class="вопр__низ"><label class="кнопка кнопка--контур вопр__прикрепить">Прикрепить файл<input class="вопр__input" type="file" multiple data-q="57"></label><span class="вопр__готово" hidden>✓ Отвечено</span></div><ul class="вопр__список" data-q="57"></ul></div></li>
+        </ol>
+      </div>
+    </details>
+    </div>
+    <div class="отправка" id="отправка" hidden>
+      <p class="отправка__текст" id="отправка-текст"></p>
+      <ul class="отправка__список" id="отправка-список"></ul>
+    </div>
+  </div>
+  <dialog class="диалог" id="выбор-диалог">
+    <p class="диалог__текст" id="диалог-текст"></p>
+    <div class="диалог__кнопки">
+      <button type="button" class="кнопка" data-act="send">Отправить как есть</button>
+      <button type="button" class="кнопка кнопка--контур" data-act="back">Вернуться к вопросам</button>
+    </div>
+  </dialog>
+  <div class="уведомление" id="выбор-уведомление" role="status" hidden></div>
+</div>
+<script>
+(function () {
+  /* Почта для запасного пути отправки (когда меню «Поделиться» недоступно, например на компьютере).
+     Адрес указан по слову владелицы и виден на странице. Править только здесь. */
+  var MAIL = 'sydorgina1406@mail.ru';
+  var MAIL_SUBJECT = 'Бриф на продающий лендинг — ответы';
+  var MAIL_BODY_LIMIT = 1500;   /* сколько символов ответов кладём в тело письма; полный текст — в скачанном файле */
+  var FILES_WARN_BYTES = 40 * 1024 * 1024;
+  var TXT_NAME = 'otvety-brief.txt';
+
+  var root = document.getElementById('экран-03');
+  if (!root) return;
+  var toast = document.getElementById('выбор-уведомление');
+  var toastTimer = null;
+  var rows = root.querySelectorAll('.вопр');
+  var TOTAL = rows.length;
+  var MUST_TOTAL = root.querySelectorAll('.вопр--обяз').length;
+
+  /* Скрипт сработал: раскрыт только первый раздел. Без скрипта разметка остаётся раскрытой целиком, а поля остаются полями. */
+  root.querySelectorAll('details.раздел').forEach(function (d, i) { if (i > 0) d.removeAttribute('open'); });
+
+  /* ── Сообщения: одна подсказка на экране ── */
+  function say(msg, ms) {
+    toast.textContent = msg; toast.hidden = false;
+    clearTimeout(toastTimer); toastTimer = setTimeout(function () { toast.hidden = true; }, ms || 6000);
+  }
+  toast.addEventListener('click', function () { toast.hidden = true; });
+
+  /* ── Данные ── */
+  var files = [];            /* { id, q, name, type, size, blob } */
+  var memId = 0;
+  var db = null;
+  var warnedMem = false, warnedSize = false;
+
+  function fieldOf(row) { return row.querySelector('.вопр__поле'); }
+  function numOf(row) { return fieldOf(row).getAttribute('data-q'); }
+  function filesOf(q) { return files.filter(function (f) { return String(f.q) === String(q); }); }
+  function fmt(n) {
+    if (n < 1024) return n + ' Б';
+    if (n < 1024 * 1024) return (n / 1024).toFixed(0) + ' КБ';
+    return (n / 1048576).toFixed(1).replace('.', ',') + ' МБ';
+  }
+  function totalBytes() { return files.reduce(function (s, f) { return s + (f.size || 0); }, 0); }
+
+  /* ── Текст: localStorage, ключ на вопрос ── */
+  var saveTimers = {};
+  function saveText(q) {
+    var ta = document.getElementById('ответ-' + q);
+    try {
+      if (ta.value.trim()) localStorage.setItem('br-a-' + q, ta.value); else localStorage.removeItem('br-a-' + q);
+    } catch (e) {}
+  }
+  function flushAll() {
+    Object.keys(saveTimers).forEach(function (q) { clearTimeout(saveTimers[q]); delete saveTimers[q]; saveText(q); });
+  }
+  rows.forEach(function (row) {
+    var ta = fieldOf(row), q = numOf(row);
+    try { var v = localStorage.getItem('br-a-' + q); if (v) ta.value = v; } catch (e) {}
+    ta.addEventListener('input', function () {
+      clearTimeout(saveTimers[q]);
+      saveTimers[q] = setTimeout(function () { delete saveTimers[q]; saveText(q); }, 400);
+      paint();
+    });
+  });
+  window.addEventListener('pagehide', flushAll);
+  document.addEventListener('visibilitychange', function () { if (document.visibilityState === 'hidden') flushAll(); });
+
+  /* ── Файлы: IndexedDB (blob), запасной путь — память страницы ── */
+  function openDb(cb) {
+    try {
+      var r = indexedDB.open('br-files', 1);
+      r.onupgradeneeded = function () { r.result.createObjectStore('files', { keyPath: 'id', autoIncrement: true }); };
+      r.onsuccess = function () { cb(r.result); };
+      r.onerror = function () { cb(null); };
+      r.onblocked = function () { cb(null); };
+    } catch (e) { cb(null); }
+  }
+  function warnMem() {
+    if (warnedMem) return; warnedMem = true;
+    say('Файлы сохранятся, пока страница открыта.', 8000);
+  }
+  function loadFiles() {
+    openDb(function (d) {
+      db = d;
+      if (!db) { return; }
+      try {
+        var req = db.transaction('files', 'readonly').objectStore('files').getAll();
+        req.onsuccess = function () {
+          (req.result || []).forEach(function (rec) {
+            if (!files.some(function (f) { return f.id === rec.id; })) files.push(rec);
+          });
+          renderFiles(); paint();
+        };
+        req.onerror = function () { db = null; };
+      } catch (e) { db = null; }
+    });
+  }
+  function addFile(q, file) {
+    var rec = { q: String(q), name: file.name, type: file.type || '', size: file.size, blob: file };
+    function keepInMemory() { rec.id = 'm' + (++memId); files.push(rec); warnMem(); renderFiles(); paint(); }
+    if (!db) { keepInMemory(); return; }
+    try {
+      var tx = db.transaction('files', 'readwrite');
+      var req = tx.objectStore('files').add(rec);
+      req.onsuccess = function () { rec.id = req.result; files.push(rec); renderFiles(); paint(); };
+      req.onerror = function () { keepInMemory(); };
+      tx.onabort = function () { if (rec.id === undefined) keepInMemory(); };
+    } catch (e) { keepInMemory(); }
+  }
+  function removeFile(id) {
+    files = files.filter(function (f) { return f.id !== id; });
+    if (db && typeof id === 'number') { try { db.transaction('files', 'readwrite').objectStore('files').delete(id); } catch (e) {} }
+    renderFiles(); paint();
+  }
+
+  function renderFiles() {
+    root.querySelectorAll('.вопр__список').forEach(function (ul) {
+      var q = ul.getAttribute('data-q');
+      ul.textContent = '';
+      filesOf(q).forEach(function (f) {
+        var li = document.createElement('li'); li.className = 'файл';
+        var n = document.createElement('span'); n.className = 'файл__имя'; n.textContent = f.name;
+        var s = document.createElement('span'); s.className = 'файл__размер'; s.textContent = fmt(f.size);
+        var b = document.createElement('button'); b.type = 'button'; b.className = 'кнопка кнопка--контур файл__убрать'; b.textContent = 'убрать';
+        b.setAttribute('aria-label', 'Убрать файл ' + f.name);
+        b.addEventListener('click', function () { removeFile(f.id); });
+        li.appendChild(n); li.appendChild(s); li.appendChild(b);
+        ul.appendChild(li);
+      });
+    });
+  }
+
+  root.querySelectorAll('.вопр__input').forEach(function (inp) {
+    inp.addEventListener('change', function () {
+      var q = inp.getAttribute('data-q');
+      Array.prototype.forEach.call(inp.files, function (f) { addFile(q, f); });
+      inp.value = '';
+      setTimeout(function () {
+        if (totalBytes() > FILES_WARN_BYTES && !warnedSize) {
+          warnedSize = true;
+          say('Файлы большие, при отправке часть может не пройти — пришлите их ссылкой на облако.', 10000);
+        }
+      }, 120);
+    });
+  });
+
+  /* ── Отметки и счётчики ── */
+  function isAnswered(row) {
+    var q = numOf(row);
+    return !!fieldOf(row).value.trim() || filesOf(q).length > 0;
+  }
+  function paint() {
+    var done = 0, must = 0;
+    rows.forEach(function (row) {
+      var a = isAnswered(row);
+      row.classList.toggle('отвечен', a);
+      var g = row.querySelector('.вопр__готово'); if (g) g.hidden = !a;
+      if (a) { done++; if (row.classList.contains('вопр--обяз')) must++; }
+    });
+    root.querySelectorAll('details.раздел').forEach(function (d) {
+      var n = d.querySelectorAll('.вопр').length;
+      var k = d.querySelectorAll('.вопр.отвечен').length;
+      var c = d.querySelector('.раздел__счёт');
+      if (c) c.textContent = 'Отвечено: ' + k + ' из ' + n;
+    });
+    var el = document.getElementById('итог-счёт');
+    if (el) el.textContent = 'Отвечено вопросов: ' + done + ' из ' + TOTAL + ' (обязательных: ' + must + ' из ' + MUST_TOTAL + ')';
+    var note = document.getElementById('итог-заметка');
+    if (note) {
+      var big = totalBytes() > FILES_WARN_BYTES;
+      note.hidden = !big;
+      if (big) note.textContent = 'Файлы большие, при отправке часть может не пройти — пришлите их ссылкой на облако.';
+    }
+  }
+
+  /* ── Сбор ответов ── */
+  function collect() {
+    var lines = ['Бриф на продающий лендинг — ответы', 'Дата: ' + new Date().toLocaleDateString('ru-RU'), ''];
+    var done = 0, fileCount = 0, missing = [], attached = [];
+    rows.forEach(function (row) {
+      var q = numOf(row), txt = fieldOf(row).value.trim(), fs = filesOf(q);
+      var must = row.classList.contains('вопр--обяз');
+      if (!txt && !fs.length) { if (must) missing.push(q); return; }
+      done++; fileCount += fs.length;
+      lines.push(q + '. ' + row.querySelector('.вопр__текст').textContent.trim());
+      if (txt) lines.push('Ответ: ' + txt);
+      if (fs.length) lines.push('Файлы: ' + fs.map(function (f) { return f.name; }).join(', '));
+      lines.push('');
+      fs.forEach(function (f) { attached.push(f); });
+    });
+    lines.push(missing.length ? 'Не отвечены обязательные вопросы: ' + missing.join(', ') : 'Все обязательные вопросы отвечены.');
+    return { text: lines.join('\n'), done: done, fileCount: fileCount, missing: missing, attached: attached };
+  }
+
+  /* ── Подтверждение, если обязательные не заполнены ── */
+  var dlg = document.getElementById('выбор-диалог');
+  function confirmSend(y) {
+    var msg = 'Не заполнено обязательных: ' + y + '. Отправить как есть или вернуться к вопросам?';
+    return new Promise(function (resolve) {
+      if (!dlg || typeof dlg.showModal !== 'function') { resolve(window.confirm(msg)); return; }
+      var finished = false;
+      function fin(v) { if (finished) return; finished = true; try { dlg.close(); } catch (e) {} resolve(v); }
+      document.getElementById('диалог-текст').textContent = msg;
+      dlg.querySelector('[data-act="send"]').onclick = function () { fin(true); };
+      dlg.querySelector('[data-act="back"]').onclick = function () { fin(false); };
+      dlg.oncancel = function (e) { e.preventDefault(); fin(false); };
+      dlg.showModal();
+    });
+  }
+  function goToFirstMissing(q) {
+    var ta = document.getElementById('ответ-' + q);
+    if (!ta) return;
+    var row = ta.closest('.вопр'), d = row.closest('details.раздел');
+    if (d) d.open = true;
+    setTimeout(function () {
+      row.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      row.classList.add('вспышка');
+      setTimeout(function () { row.classList.remove('вспышка'); }, 2500);
+      try { ta.focus({ preventScroll: true }); } catch (e) {}
+    }, 60);
+  }
+
+  /* ── Отправка ── */
+  function makeTxt(text) { return new File([text], TXT_NAME, { type: 'text/plain;charset=utf-8' }); }
+  function toFile(f) { return new File([f.blob], f.name, { type: f.type || 'application/octet-stream' }); }
+  function download(blob, name) {
+    var u = URL.createObjectURL(blob), a = document.createElement('a');
+    a.href = u; a.download = name; document.body.appendChild(a); a.click(); document.body.removeChild(a);
+    setTimeout(function () { URL.revokeObjectURL(u); }, 30000);
+  }
+  function copyText(t) {
+    try { if (navigator.clipboard && navigator.clipboard.writeText) { navigator.clipboard.writeText(t).catch(function () {}); return; } } catch (e) {}
+    try { var ta = document.createElement('textarea'); ta.value = t; ta.setAttribute('readonly', ''); document.body.appendChild(ta); ta.select(); document.execCommand('copy'); document.body.removeChild(ta); } catch (e) {}
+  }
+  function mailUrl(text) {
+    var body = text;
+    if (body.length > MAIL_BODY_LIMIT) {
+      var cut = body.lastIndexOf('\n', MAIL_BODY_LIMIT);
+      body = body.slice(0, cut > 0 ? cut : MAIL_BODY_LIMIT) + '\n…';
+    }
+    return 'mailto:' + MAIL + '?subject=' + encodeURIComponent(MAIL_SUBJECT) + '&body=' + encodeURIComponent(body);
+  }
+  function openMail(url) {
+    var a = document.createElement('a'); a.href = url; document.body.appendChild(a); a.click(); document.body.removeChild(a);
+  }
+  var panelUrls = [];
+  function showPanel(d, txtFile) {
+    var panel = document.getElementById('отправка'), list = document.getElementById('отправка-список');
+    panelUrls.forEach(function (u) { URL.revokeObjectURL(u); }); panelUrls = [];
+    list.textContent = '';
+    document.getElementById('отправка-текст').textContent = 'Файл с ответами скачан. Откройте письмо и прикрепите его и ваши документы.';
+    var items = [txtFile].concat(d.attached.map(toFile));
+    items.forEach(function (f) {
+      var u = URL.createObjectURL(f); panelUrls.push(u);
+      var li = document.createElement('li'), a = document.createElement('a');
+      a.href = u; a.download = f.name; a.textContent = f.name + ' (' + fmt(f.size) + ')';
+      li.appendChild(a); list.appendChild(li);
+    });
+    panel.hidden = false;
+    panel.scrollIntoView({ behavior: 'smooth', block: 'center' });
+  }
+  function fallback(d, txtFile) {
+    copyText(d.text);
+    download(txtFile, TXT_NAME);
+    showPanel(d, txtFile);
+    say('Файл с ответами скачан, текст скопирован. Откройте письмо и прикрепите файл и ваши документы.', 15000);
+    openMail(mailUrl(d.text));
+  }
+
+  var sending = false;
+  async function brSend() {
+    if (sending) return;
+    sending = true;
+    try {
+      flushAll();
+      var d = collect();
+      if (d.missing.length) {
+        var go = await confirmSend(d.missing.length);
+        if (!go) { goToFirstMissing(d.missing[0]); return; }
+      }
+      var txtFile = makeTxt(d.text);
+      var list = [txtFile].concat(d.attached.map(toFile));
+      var summary = 'Ответы на бриф: отвечено ' + d.done + ' из ' + TOTAL + ', файлов ' + d.fileCount;
+      var canShare = false;
+      try { canShare = !!(navigator.share && navigator.canShare && navigator.canShare({ files: list })); } catch (e) { canShare = false; }
+      if (canShare) {
+        try {
+          await navigator.share({ title: MAIL_SUBJECT, text: summary, files: list });
+          say('Готово. Если вы выбрали чат и нажали «Отправить», ответы у меня. Страница всё сохранила: можно дополнить и отправить снова.', 12000);
+          return;
+        } catch (err) {
+          if (err && err.name === 'AbortError') return;
+        }
+      }
+      fallback(d, txtFile);
+    } finally { sending = false; }
+  }
+  window.brSend = brSend;
+
+  /* Главная кнопка финального экрана лежит ниже по странице, поэтому слушаем клик на документе. Без скрипта она просто ведёт к первому вопросу. */
+  document.addEventListener('click', function (e) {
+    var t = e.target && e.target.closest ? e.target.closest('#экран-05 .кнопка--главная') : null;
+    if (!t) return;
+    e.preventDefault();
+    brSend();
+  });
+
+  /* Якорь на вопрос (#вопрос-1 с других экранов): раздел раскрываем, даже если его свернули. */
+  function openHash() {
+    var id = '';
+    try { id = decodeURIComponent(location.hash.slice(1)); } catch (e) { return; }
+    var el = id ? document.getElementById(id) : null;
+    if (!el || !root.contains(el)) return;
+    var d = el.closest('details.раздел');
+    if (d && !d.open) { d.open = true; el.scrollIntoView({ block: 'start' }); }
+  }
+
+  paint();
+  openHash();
+  window.addEventListener('hashchange', openHash);
+  loadFiles();
+})();
+</script>
+</section>
+<section class="блок блок--что-получите светлый второй" id="экран-04" data-тип="что-получите" data-вёрстка="своя"><div class="стык стык--верх" aria-hidden="true" style="--стык-сосед: var(--цвет-фон)"></div><div class="стык стык--низ" aria-hidden="true" style="--стык-сосед: var(--цвет-тёмный-фон)"></div>
+<div class="блок__внутри">
+  <div class="секция__шапка итог-шапка">
+    <p class="кикер">Что вы получите</p>
+    <h2>Что у вас останется, когда страница будет готова</h2>
+  </div>
+  <ul class="итог">
+    <li class="вещь">
+      <span class="вещь__значок"><svg class="иконка" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M9 15l6-6"/>
+  <path d="M8 13l-2 2a3.5 3.5 0 0 0 5 5l2-2"/>
+  <path d="M16 11l2-2a3.5 3.5 0 0 0-5-5l-2 2"/>
+</svg></span>
+      <div class="вещь__текст">
+        <h3>Живая страница</h3>
+        <p class="вещь__пояснение">открывается по ссылке с компьютера и с телефона</p>
+      </div>
+    </li>
+    <li class="вещь">
+      <span class="вещь__значок"><svg class="иконка" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M3 11l9-8 9 8v10h-6v-6H9v6H3z"/>
+</svg></span>
+      <div class="вещь__текст">
+        <h3>Домен и хостинг на вас</h3>
+        <p class="вещь__пояснение">страница принадлежит вам, а не исполнителю</p>
+      </div>
+    </li>
+    <li class="вещь">
+      <span class="вещь__значок"><svg class="иконка" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M7 3h7l5 5v13H7z"/>
+  <path d="M14 3v5h5M10 13h5M10 17h5"/>
+</svg></span>
+      <div class="вещь__текст">
+        <h3>Инструкция «как поправить текст»</h3>
+        <p class="вещь__пояснение">короткая, чтобы менять слова самому</p>
+      </div>
+    </li>
+    <li class="вещь">
+      <span class="вещь__значок"><svg class="иконка" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M4 5h16v11H9l-5 4z"/>
+</svg></span>
+      <div class="вещь__текст">
+        <h3>Заявки в ваш мессенджер</h3>
+        <p class="вещь__пояснение">куда придёт обращение, решаем вместе в разделе «Заявка»</p>
+      </div>
+    </li>
+    <li class="вещь">
+      <span class="вещь__значок"><svg class="иконка" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M4 4h6a2 2 0 0 1 2 2v14a2 2 0 0 0-2-2H4zM20 4h-6a2 2 0 0 0-2 2v14a2 2 0 0 1 2-2h6z"/>
+</svg></span>
+      <div class="вещь__текст">
+        <h3>Журнал решений</h3>
+        <p class="вещь__пояснение">что выбирали и почему, чтобы через месяц не гадать</p>
+      </div>
+    </li>
+  </ul>
+</div>
+</section>
+<section class="блок блок--финал блок--громко тёмный" id="экран-05" data-тип="финал" data-вёрстка="своя"><div class="стык стык--верх" aria-hidden="true" style="--стык-сосед: var(--цвет-фон-2, var(--цвет-фон))"></div>
+<div class="блок__внутри">
+  <div class="финал">
+    <div class="финал__плита">
+      <p class="кикер">Последний шаг</p>
+      <h2>Готово? Отправьте ответы мне</h2>
+      <p class="финал__текст">Страница соберёт ваши ответы и файлы и предложит отправить их мне через приложение, которое есть у вас</p>
+      <a class="кнопка кнопка--главная" href="#вопрос-1">Отправить ответы</a>
+    </div>
+  </div>
+</div>
+</section>
+</body>
+</html>
